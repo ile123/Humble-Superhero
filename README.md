@@ -3,7 +3,7 @@
 ## Description
 
 This project is built using **NestJS** on the backend and **React** on the frontend. It can save superheores to an array and return all of them back.
-Supoorts both GET and POST requests. For POST requests there is validation in order to ensure that the Hero trying to be added to the collection is valid.
+Supports both GET and POST requests. For POST requests there is validation in order to ensure that the Hero trying to be added to the collection is valid.
 For tests, the Jest testing framework was used to make simple tests for both functionalities. React95 was used as the UI library for this project.
 
 ## How to run the project
