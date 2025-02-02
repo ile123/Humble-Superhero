@@ -1,0 +1,103 @@
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+dist
+node_modules
+build
+package-lock.json
+
+### Api
+# compiled output
+humble-hero-api/dist
+humble-hero-api/node_modules
+humble-hero-api/build
+
+# Logs
+humble-hero-api/logs
+humble-hero-api/*.log
+humble-hero-api/npm-debug.log*
+humble-hero-api/pnpm-debug.log*
+humble-hero-api/yarn-debug.log*
+humble-hero-api/yarn-error.log*
+humble-hero-api/lerna-debug.log*
+humble-hero-api/package-lock.json
+
+# OS
+humble-hero-api/.DS_Store
+
+# Tests
+humble-hero-api/coverage
+humble-hero-api/.nyc_output
+
+# IDEs and editors
+humble-hero-api/.idea
+humble-hero-api/.project
+humble-hero-api/.classpath
+humble-hero-api/.c9/
+humble-hero-api/*.launch
+humble-hero-api/.settings/
+humble-hero-api/*.sublime-workspace
+
+# IDE - VSCode
+humble-hero-api/.vscode/*
+humble-hero-api/!.vscode/settings.json
+humble-hero-api/!.vscode/tasks.json
+humble-hero-api/!.vscode/launch.json
+humble-hero-api/!.vscode/extensions.json
+
+# dotenv environment variable files
+humble-hero-api/.env
+humble-hero-api/.env.development.local
+humble-hero-api/.env.test.local
+humble-hero-api/.env.production.local
+humble-hero-api/.env.local
+
+# temp directory
+humble-hero-api/.temp
+humble-hero-api/.tmp
+
+# Runtime data
+humble-hero-api/pids
+humble-hero-api/*.pid
+humble-hero-api/*.seed
+humble-hero-api/*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+humble-hero-api/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+### Client
+
+# Logs
+humble-hero-client/logs
+humble-hero-client/*.log
+humble-hero-client/npm-debug.log*
+humble-hero-client/yarn-debug.log*
+humble-hero-client/yarn-error.log*
+humble-hero-client/pnpm-debug.log*
+humble-hero-client/lerna-debug.log*
+
+humble-hero-client/node_modules
+humble-hero-client/dist
+humble-hero-client/dist-ssr
+humble-hero-client/*.local
+humble-hero-client/package-lock.json
+
+# Editor directories and files
+humble-hero-client/.vscode/*
+humble-hero-client/!.vscode/extensions.json
+humble-hero-client/.idea
+.DS_Store
+humble-hero-client/*.suo
+humble-hero-client/*.ntvs*
+humble-hero-client/*.njsproj
+humble-hero-client/*.sln
+humble-hero-client/*.sw?
