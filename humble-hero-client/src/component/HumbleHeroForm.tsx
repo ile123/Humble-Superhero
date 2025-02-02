@@ -28,6 +28,7 @@ export default function HumbleHeroForm(props: HumbleHeroFormProps) {
   const onSubmitHandler = () => {
     saveHumbleHero(hero)
       .then((result) => {
+        //In a error message, the data is an object, while in a 200 response message, it is a string.
         if(result?.data instanceof Object) {
           props.onSaveHumbleHero(hero, result?.data.statusCode);
           return;

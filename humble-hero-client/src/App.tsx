@@ -65,6 +65,7 @@ function App() {
             setShowErrorWindow(true);
             return;
           }
+          //Sometimes the frontend is loaded before the backend, so the returned data is undefined.
           if(result.data === undefined) return;
           setHeroes(result.data);
         })
